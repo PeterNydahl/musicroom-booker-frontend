@@ -3,3 +3,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .btn {
+         @apply bg-pink-500 hover:bg-pink-700 inline-block my-2 px-4 py-2 uppercase rounded-md cursor-pointer font-bold text-white
+    }
+}
+
+:root {
+  --webbRed: hsl(353.93deg 91.75% 61.96%);
+  --creamyWhite: hsl(48.33deg 100% 92.94%);
+  --cieloCajamarquino: hsl(183.16deg 98.7% 69.8%);
+  --pistageGlass: hsl(102, 100%, 85%);
+  --strawberryDream: hsl(289.09deg 95.65% 90.98%);
+  --tummenRosa: hsl(324.44deg 100% 89.41%);
+}
+
+body{
+    background-color: aqua;
+}
+
+.bokaRumWrapper{
+    border: 5px solid blue;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
